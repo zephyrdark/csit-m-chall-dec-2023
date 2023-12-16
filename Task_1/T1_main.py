@@ -14,4 +14,5 @@ spedSampleArray = librosa.effects.time_stretch(reverseSampleArray, rate=2.0)
 soundfile.write("/home/alvin/repos/csit-m-chall-dec-2023/Task_1/output.wav", spedSampleArray, sr, subtype='PCM_24')
 
 ## Latitude: North 67.9222, Longitude: East 26.5046
-## Sodankylä, Finland
+## 67°55'19.9"N 26°30'16.6"E
+## 99600 Sodankylä, Finland
