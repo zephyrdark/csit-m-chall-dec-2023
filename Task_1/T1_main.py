@@ -15,4 +15,4 @@ soundfile.write("/home/alvin/repos/csit-m-chall-dec-2023/Task_1/output.wav", spe
 
 ## Latitude: North 67.9222, Longitude: East 26.5046
 ## 67°55'19.9"N 26°30'16.6"E
-## 99600 Sodankylä, Finland
+## answer(?) = 99600 Sodankylä, Finland
