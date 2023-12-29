@@ -2,10 +2,10 @@ import librosa
 import matplotlib.pyplot as plt
 import numpy as np
 
-a = "/home/alvin/repos/csit-m-chall-dec-2023/Task_2/T2_audio_a.wav"
-b = "/home/alvin/repos/csit-m-chall-dec-2023/Task_2/T2_audio_b.wav"
-c = "/home/alvin/repos/csit-m-chall-dec-2023/Task_2/T2_audio_c.wav"
-d = "/home/alvin/repos/csit-m-chall-dec-2023/Task_2/T2_audio_d.wav"
+a = "./Task_2/T2_audio_a.wav"
+b = "./Task_2/T2_audio_b.wav"
+c = "./Task_2/T2_audio_c.wav"
+d = "./Task_2/T2_audio_d.wav"
 
 ya, sra = librosa.load(a,sr=librosa.get_samplerate(a))
 yb, srb = librosa.load(b,sr=librosa.get_samplerate(b))
@@ -22,7 +22,7 @@ librosa.display.specshow(Dc,y_axis="linear",x_axis="time",sr=src,ax=ax[2])
 Dd = librosa.amplitude_to_db(np.abs(librosa.stft(yd)),ref=np.max)
 librosa.display.specshow(Dd,y_axis="log",x_axis="time",sr=srd,ax=ax[3])
 
-fig.savefig("/home/alvin/repos/csit-m-chall-dec-2023/Task_2/output.png")
+fig.savefig("./Task_2/output.png")
 
 # T2_audio_a.wav = MINS
 # T2_audio_b.wav = NOON
