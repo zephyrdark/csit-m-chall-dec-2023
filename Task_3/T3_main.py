@@ -42,24 +42,3 @@ fig, ax = plt.subplots(nrows=1, sharex=True)
 plt.plot(new_y)
 fig.savefig("/home/alvin/repos/csit-m-chall-dec-2023/Task_3/output3.png")
 sf.write("/home/alvin/repos/csit-m-chall-dec-2023/Task_3/output.wav", new_y, sr, subtype='PCM_24')
-
-# print("yf",yf.shape, max(yf), min(yf))
-# print("xf",xf.shape, max(xf), min(xf))
-
-# def trimmer(iarr):
-#     oarr=[]
-#     for i in iarr:
-#         if i >= 2000 or i <= -2000:
-#             print(i)
-#             oarr.append(0)
-#         else:
-#             oarr.append(i)
-#     print("oarr",len(oarr))
-#     return oarr
-
-# txf = trimmer(xf)
-# plt.plot(yf, np.abs(txf))
-# fig.savefig("/home/alvin/repos/csit-m-chall-dec-2023/Task_3/output4.png")
-
-# print("txf",len(txf), max(txf), min(txf))
-# # print("tyf",len(tyf), max(tyf), min(tyf))
