@@ -1,3 +1,12 @@
+# Learning Resources
+## https://musicinformationretrieval.com/ipython_audio.html
+## https://librosa.org/doc/main/generated/librosa.get_samplerate.html
+## https://librosa.org/doc/main/generated/librosa.load.html
+## https://www.askpython.com/python/array/reverse-an-array-in-python
+## https://librosa.org/doc/main/generated/librosa.effects.time_stretch.html
+## https://www.programcreek.com/python/example/95990/soundfile.write
+## https://www.google.com/maps
+
 import librosa
 import soundfile
 

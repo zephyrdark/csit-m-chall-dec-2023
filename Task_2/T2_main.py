@@ -1,3 +1,7 @@
+# Learning Resources
+## https://www.kaggle.com/code/jaseemck/audio-processing-using-librosa-for-beginners
+## https://www.pnsn.org/spectrograms/what-is-a-spectrogram
+
 import librosa
 import matplotlib.pyplot as plt
 import numpy as np
